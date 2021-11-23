@@ -112,6 +112,7 @@
       *>===================================================================================
        8000-tela section.
        8000.
+            *> Resoluções padrão, 800x600 e 1024x768
             perform 8000-scripts-tela
             perform 8000-style
             exec html
