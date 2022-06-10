@@ -6,7 +6,7 @@ Este repositório contemplará exemplos básicos de programas na linguagem COBOL
 
 - [Programa 1] - Calcular o dígito verificador do **CPF**
 - [Programa 2] - Calcular o último dia do mês e validar se o ano é bissexto
-- [Programa_3] - Calcular o último dia do mês e validar se o ano é bissexto
+- [Programa_3] - Validar placa MERCOSUL
 
 [//]: #
     [Programa 1]: <https://github.com/vitorbarbieri/COBOL/blob/main/Programa_1.cbl>
