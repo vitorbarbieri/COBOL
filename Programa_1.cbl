@@ -76,8 +76,8 @@
 
       *>   Calcular o primeiro digito verificador
            perform varying ws-index from 1 by 1 until ws-index > 9
-               compute ws-resultado = ws-cpf-cd(ws-index) * ws-cpf-peso-cd(ws-index + 1)
-               add ws-resultado                    to ws-cpf-soma-1
+                compute ws-resultado = ws-cpf-cd(ws-index) * ws-cpf-peso-cd(ws-index + 1)
+                add ws-resultado                   to ws-cpf-soma-1
            end-perform
            divide ws-cpf-soma-1 by 11 giving ws-resultado remainder ws-cpf-dv-1
            compute ws-cpf-dv-1 = 11 - ws-cpf-dv-1
@@ -88,8 +88,8 @@
 
       *>   Calcular o segundo digito verificador
            perform varying ws-index from 1 by 1 until ws-index > 10
-               compute ws-resultado = ws-cpf-cd(ws-index) * ws-cpf-peso-cd(ws-index)
-               add ws-resultado                    to ws-cpf-soma-2
+                compute ws-resultado = ws-cpf-cd(ws-index) * ws-cpf-peso-cd(ws-index)
+                add ws-resultado                   to ws-cpf-soma-2
            end-perform
            divide ws-cpf-soma-2 by 11 giving ws-resultado remainder ws-cpf-dv-2
            compute ws-cpf-dv-2 = 11 - ws-cpf-dv-2
