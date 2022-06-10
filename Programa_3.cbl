@@ -35,7 +35,7 @@
        78  caracteres-i                            value "AAAAAAAAAAAAAAAAAAAAAAAAAA9999999999".
 
        01  ws-campos-trabalho.
-           03 ws-placa                             pic x(07)           value spaces.
+           03 ws-placa                             pic x(07)       value spaces.
 
       *>============================================================================================
        procedure division.
